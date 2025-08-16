@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Tiffany Sudat">
+<title>Formula One</title>
+<link href="Formula1.css" rel="stylesheet">
+<style>
+fieldset{
+
+margin-left:auto;
+margin-right:auto;
+width:80%;
+}
+
+label{
+display:block;
+}
+</style>
+</head>
+
+<body>
+
+
+<header id="top">
+<h1>Formula One Fansite</h1>
+</header>
+
+<div>
+
+<nav style="padding-top:180px;">
+<ul>
+<li><a href="#Terms">F1 Terms</a></li>
+<li><a href="#Facts">F1 Fun Facts</a></li>
+<li><a href="#Form">Form </a></li>
+</ul>
+</nav>
+
+<div style="padding-top:180px">
+
+<table>
+<thead>
+<tr>
+<th style="color:#AA8439;" colspan="2"> Formula One Drivers 2024 </th>
+</tr>
+<tr>
+<th>Team</th>
+<th>Drivers</th>
+
+</tr>
+<tr>
+<td rowspan="2">
+<a href="Redbull.html">Red Bull</a>
+</td>
+<td><mark style="background-color:#AA8439;">Max Verstappen</mark>
+</td>
+</tr>
+<tr>
+<td>Sergio Perez
+</td>
+</tr>
+
+<tr>
+<td rowspan="2">
+<a href="McLaren.html"><mark style="background-color:orange;">McLaren</mark></a>
+</td>
+<td>Lando Norris
+</td>
+</tr>
+<tr>
+<td>Oscar Piastri
+</td>
+</tr>
+
+<tr>
+<td rowspan="2">
+
+<a href="Ferrari.html">Ferrari</a>
+
+</td>
+<td>Carlos Sainz
+</td>
+
+</tr>
+<tr>
+<td>Charles LeClerc
+</td>
+</tr>
+
+
+<tr>
+<td rowspan="2">
+
+<a href="Mercedes.html">Mercedes</a>
+</td>
+
+<td>Lewis Hamilton
+</td>
+</tr>
+<tr>
+<td>George Russell
+</td>
+</tr>
+
+
+</thead>
+</table>
+</div>
+
+<hr id="Terms">
+<article>
+<h2 style="font-size:2em;">F1 Terms!</h2>
+<p>Some F1 Terms you might want to know
+</p>
+
+<dl>
+<dt><strong>Halo</strong></dt>
+<dd>Protective Barrier put in place to prtoect a drivers neck during racing</dd>
+<dt><strong>P1, P2, P3, P4-P12</strong></dt>
+<dd>All refer what postion/place a driver finished a race in</dd>
+<dt><strong>Podium</strong></dt>
+<dd>1st,2nd,3rd place stand</dd>
+<dt><strong>Grand Prix</strong></dt>
+<dd>The name of each race a formula one driver races as per competion</dd>
+<dt><mark style="background-color:#AA8439;">Drivers Champion</mark></dt>
+<dd>Driver who won most races overall in the season</dd>
+<dt><mark style="background-color:orange;">World Championship</mark></dt>
+<dd>Best overall team of the season</dd>
+</dl>
+</article>
+
+<hr id="Facts">
+<article>
+<h3 style="font-size:2em;">Fun Facts!</h3>
+<p>Here are some Fun Facts about Formula One Drivers</p>
+<ol>
+<li>The fastest a driver has gone is 356 mph</li>
+<li>Drivers have really strong necks because they have to face up to 6.5G's of G-force when racing, especially when turning (We face 1G when making a hard break and/or turn)</li>
+<li> Sadly, 52 drivers have died racing in formula one (May they rest in peace)
+</ol>
+
+
+</article>
+<hr id="Form">
+<div>
+
+<fieldset>
+<p>How well would you say you knew Formula One? 0<input type="range"   name="knowledge" min="0" max="10" step="1">10</p>
+
+<div>
+<p>Select your favorite driver</p>
+<label>Max Verstappen<input type="radio" name="favDriver" id="MaxVerstappen" value="Max Verstappen"></label>
+<label>Sergio Perez<input type="radio" name="favDriver" id="SergioPerez" value="Sergio Perez"></label>
+<label>Charles LeClerc<input type="radio" name="favDriver" id="CharlesLeClerc" value="CharlesLeClerc"></label>
+<label>Carlos Sainz<input type="radio" name="favDriver" id="CarlosSainz" value="Carlos Sainz"></label>
+<label>Lando Norris<input type="radio" name="favDriver" id="LandoNorris" value="Lando Norris"></label>
+<label>Oscar Piastri<input type="radio" name="favDriver" id="OscarPiastri" value="Oscar Piastri"></label>
+</div>
+
+<div> 
+<select name="whatsNext" size="5" multiple="multiple">
+<option>Select a driver you want next</option>
+<option>Fernando Alonso</option>
+<option>Esteban Ocon</option>
+<option>Alexander Albon</option>
+<option>Pierre Gasly</option>
+<option>Yuki Tsunoda</option>
+</select>
+</div>
+
+<div>
+<textarea name="feedback" rows="4" cols="50" maxlength="200" placeholder="Please provide feedback on my website"></textarea>
+</div>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+<a id="bottom" style="margin-top:150px;" href="#top" >Top of Page</a>
+</div>
+</div>
+<footer>
+
+<p>&copy;2024 Tiffany Sudat</p>
+</footer>
+
+
+</body>
+
+</html>

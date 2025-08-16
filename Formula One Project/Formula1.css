@@ -1,0 +1,102 @@
+/**
+Formula one project css stylesheet
+*/
+
+table{
+	border: 2px solid black;
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+td,th{
+	font-size:2em;
+	border:2px solid black;
+	padding: 5px;
+	
+}
+hr {
+	margin-top:150px;
+	margin-bottom:150px;
+}
+div
+{
+	background-color:tan;
+	width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+body {
+	background-color:darkred;
+	margin-top:200px;
+	margin:0px;
+}
+h1{
+	text-transform:uppercase;
+	font-family:monospace,Monaco;
+	font-weight:200;
+	letter-spacing:10px;
+	font-size:45px;
+	background-color:white;/**#F7F0F1;*/
+	padding-top:50px;
+	padding-bottom:30px;
+	padding-left:130px;
+	margin:0px;
+	width:100%;
+	position:fixed;
+	opacity:100%;
+	border-bottom: solid #AA8439 20px;
+	
+	
+	
+	
+}
+
+nav a{
+	padding:5px;
+	}
+
+
+nav ul li {
+	display: table-cell;
+	width:18%;
+	text-align: center;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+	}
+
+nav {
+	float: none;	
+}
+
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+nav a:visited {
+	color: white;
+}
+ a:hover {
+	background-color: black;
+	color: white;
+
+
+}
+a{
+	
+	color:white;
+	
+	text-decoration:none;
+
+}
+dl
+{
+	font-size:1.1em;
+}
+dt,ol
+{
+	font-size:1.3em;
+}
