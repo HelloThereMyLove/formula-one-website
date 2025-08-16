@@ -22,14 +22,18 @@ How to Use
 
 Clone the repository:
 
-git clone https://github.com/YourUsername/formula-one-fanpage.git
+git clone https://github.com/HelloThereMyLove/formula-one-website.git
 
 
-Open index.html in your browser to view the homepage.
+Open the folder in your code editor or file explorer.
+
+Double-click Formula_1_Project.html (or open it in your browser) to view the homepage.
 
 Navigate through the site using the menu links.
 
 Test the interactive form and other site features.
+
+
 
 Technologies Used
 
